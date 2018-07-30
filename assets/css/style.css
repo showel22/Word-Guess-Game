@@ -1,0 +1,19 @@
+body {
+    background-image: url('../images/background.gif');
+    color: #000058;
+}
+#word-container {
+    background-color: #fff;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #000058;
+    overflow: hidden;
+}
+
+.jumbotron {
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid #000058;
+}

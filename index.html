@@ -5,15 +5,36 @@
   <title>Hangman</title>
 
   <script src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Press any key to get started!</h1>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-8">
+                <h1 class="display-4">Sneaker Hangman</h1>
+                <h3 class="">Press any key to get started!</h1>
+            </div>
+            <div class="col-4">
+                <br />
+                <h3 class="text-center" >Wins: <span id="numberOfWins">0</span></h3>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="word-container">
+        <br />
+        <br />
+        <h1 class="text-center text-uppercase" id="word"></h1>
 
-    <p>Wins: <span id="numberOfWins">0</span></p>
-    <div id="word"></div>
+        <br/>
+        <br/>
 
-    <p>Remaining Guesses: <span id="remainGuesses"></span></p>
+        <h3 class="text-center text-uppercase">Remaining Guesses: <span id="remainGuesses"></span></h3>
+        <h3 class="text-center text-uppercase" id="userGuesses"></h3>
+    </div>
 
-    <div id="userGuesses"></div>
 </body>
-</html>
+</html> 
